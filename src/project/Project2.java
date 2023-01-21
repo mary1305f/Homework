@@ -4,7 +4,10 @@ import java.util.Scanner;
 import java.lang.String;
 
 public class Project2 {
+
     public static void main(String[] args) {
+        int k=0;
+        int g=0;
         Scanner scanner=new Scanner(System.in);
         //Using Scanner create an array of countries.
         // When an array is created, retrieve all values from it and while retrieving
@@ -20,7 +23,8 @@ public class Project2 {
             System.out.print("the country "+country[i]+" is the capital of "+capital[i]+"\n ");
 
         }
-        scanner.close();
+        System.out.println("``````````````````````````````````");
+
 
     }
 
